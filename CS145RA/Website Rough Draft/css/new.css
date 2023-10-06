@@ -1,0 +1,100 @@
+
+.mySlides fade{
+  width: 100%;
+}
+body p{
+  max-width: 750px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  padding-top: 30px;
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+
+}
+
+
+.content img{
+  width: 100%;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.row{
+  margin: 8px -16px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+body{
+  margin: 0;
+  background-color: #d7fddd;
+  color: black;
+
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #487647;
+  padding: 10px;
+  color: #e5e5e5;
+
+}

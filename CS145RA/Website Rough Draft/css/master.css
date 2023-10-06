@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+  background-color: ;
+  color: ;
+  font-family: Verdana, sans-serif;
+
+}
+
+.mySlides fade{
+  width: 100%;
+}
+body p{
+  max-width: 750px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+{box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+
+}
+
+#home-hero{
+  height:15vh;
+  background-color: #04AA6D ;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid #eee;
+}
+#home-hero h1{
+  font-size: 60px;
+  font: bold;
+  color: white;
+  margin: 0 0 15px 0;]
+}
+
+#home-hero p{
+  color: white;
+  font-size: 15px;
+
+}
+.col{
+  padding: 15px;
+  width: 100%;
+
+}
+
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.w-25{
+  width: 25%;
+}
+.w-50{
+  width: 50%;
+}
+.w-75{
+  width: 75%;
+}
+.w-33{
+  width: 33.33333333333%;
+}
+.w-66{
+  width:
+   66.6666666%;
+}
+.h-100{
+  height: 100%;
+}
+.img-fluid{
+  width: 100%;
+  display:black
+}

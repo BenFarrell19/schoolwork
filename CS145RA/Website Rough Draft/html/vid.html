@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"
+
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/vid.css">
+
+    <link rel="stylesheet" href="../css/nav.css">
+
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="../images/outdoor-adventure-logo-white.png" alt="Logo of Outdoor Adventure"> Outdoor Adventure
+      </a>
+      <ul>
+        <li>
+          <a href="guide.html">Guides</a>
+        </li>
+        <li>
+          <a href="news.html">News</a>
+        </li>
+        <li>
+          <a href="vid.html">Videos</a>
+        </li>
+        <li>
+          <a href="register.html">About</a>
+        </li>
+        <li>
+          <a href="product.html">Shops</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="bgimg">
+      <div class="topleft">
+        <p>Outdoor Adventure</p>
+    </div>
+    <div class="middle">
+      <h1>COMING SOON</h1>
+      <hr>
+      <p id="demo" style="font-size: 40px"></p>
+    </div>
+    <div class="bottomleft">
+      <p>Coming to you June 16th</p>
+    </div>
+  </div>
+
+  <script>
+  var countDownDate = new Date("June 16, 2022 15:37:25").getTime();
+
+  var countdownfunction = setInterval(function() {
+
+    var now = new Date().getTime();
+
+    var distance = countDownDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+      clearInterval(countdownfunction);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+
+</body>
+
+<main>
+
+</main>
